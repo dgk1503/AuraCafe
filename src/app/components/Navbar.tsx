@@ -43,7 +43,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 flex justify-center items-center py-8 z-50 bg-gradient-to-b from-black/20 to-transparent">
+    <div className="fixed top-0 left-0 right-0 flex justify-center items-center py-8 z-50 bg-linear-to-b from-black/20 to-transparent">
       <div
         className="flex gap-6 px-8 py-4 rounded-full bg-linear-to-br from-amber-50/30 to-amber-100/20 backdrop-blur-2xl border border-amber-200/40"
         style={{

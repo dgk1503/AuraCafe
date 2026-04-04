@@ -45,15 +45,17 @@ export default function Home() {
                 className="scale-in group visible cursor-pointer"
                 style={{ transform: "translateY(0px) scale(1)" }}
               >
-                <div
-                  className="relative transform overflow-hidden rounded-2xl p-6 shadow-lg transition-all duration-300 group-hover:scale-105 hover:shadow-xl"
-                  style={{
-                    background:
-                      "url(https://images.presentationgo.com/2025/04/roasted-coffee-beans-floating-dark.jpg)",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <div className="relative">
+                <div className="relative transform overflow-hidden rounded-2xl p-6 shadow-lg transition-all duration-300 group-hover:scale-105 hover:shadow-xl">
+                  <div
+                    className="absolute inset-0 rounded-2xl"
+                    style={{
+                      background:
+                        "url(https://images.presentationgo.com/2025/04/roasted-coffee-beans-floating-dark.jpg)",
+                      backgroundSize: "cover",
+                      filter: "blur(3px)",
+                    }}
+                  />
+                  <div className="relative z-10">
                     <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-white/20">
                       <Bean className="h-6 w-6 text-white" />
                     </div>
@@ -71,15 +73,17 @@ export default function Home() {
                 className="scale-in group visible cursor-pointer"
                 style={{ transform: "transform: translateY(0px) scale(1)" }}
               >
-                <div
-                  className="relative transform overflow-hidden rounded-2xl p-6 shadow-lg transition-all duration-300 group-hover:scale-105 hover:shadow-xl"
-                  style={{
-                    background:
-                      "url(https://wild-kaffee.com/cdn/shop/articles/Was-ist-Latte-Art-warum-ist-es-wichtig-Wildkaffee-Roesterei-Milch-schaeumen.jpg?v=1711997998)",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <div className="relative">
+                <div className="relative transform overflow-hidden rounded-2xl p-6 shadow-lg transition-all duration-300 group-hover:scale-105 hover:shadow-xl">
+                  <div
+                    className="absolute inset-0 rounded-2xl"
+                    style={{
+                      background:
+                        "url(https://wild-kaffee.com/cdn/shop/articles/Was-ist-Latte-Art-warum-ist-es-wichtig-Wildkaffee-Roesterei-Milch-schaeumen.jpg?v=1711997998)",
+                      backgroundSize: "cover",
+                      filter: "blur(3px)",
+                    }}
+                  />
+                  <div className="relative z-10">
                     <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-white/20">
                       <Milk className="h-6 w-6 text-white" />
                     </div>
@@ -98,15 +102,17 @@ export default function Home() {
                 className="scale-in group visible cursor-pointer"
                 style={{ transform: "transform: translateY(0px) scale(1)" }}
               >
-                <div
-                  className="relative transform overflow-hidden rounded-2xl bg-gradient-to-br from-green-600 to-green-800 p-6 shadow-lg transition-all duration-300 group-hover:scale-105 hover:shadow-xl"
-                  style={{
-                    background:
-                      "url(https://www.carabellocoffee.com/cdn/shop/files/coffeesyrup4_800x.webp?v=1736473291)",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <div className="relative">
+                <div className="relative transform overflow-hidden rounded-2xl p-6 shadow-lg transition-all duration-300 group-hover:scale-105 hover:shadow-xl">
+                  <div
+                    className="absolute inset-0 rounded-2xl"
+                    style={{
+                      background:
+                        "url(https://www.carabellocoffee.com/cdn/shop/files/coffeesyrup4_800x.webp?v=1736473291)",
+                      backgroundSize: "cover",
+                      filter: "blur(3px)",
+                    }}
+                  />
+                  <div className="relative z-10">
                     <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-white/20">
                       <Candy className="h-6 w-6 text-white" />
                     </div>
@@ -125,15 +131,17 @@ export default function Home() {
                 className="scale-in group visible cursor-pointer"
                 style={{ transform: "transform: translateY(0px) scale(1)" }}
               >
-                <div
-                  className="relative transform overflow-hidden rounded-2xl bg-gradient-to-br from-cyan-600 to-cyan-800 p-6 shadow-lg transition-all duration-300 group-hover:scale-105 hover:shadow-xl"
-                  style={{
-                    background:
-                      "url(https://cdn.shopify.com/s/files/1/0330/7333/files/TRP-February-05_480x480.jpg?v=1620602480)",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <div className="relative">
+                <div className="relative transform overflow-hidden rounded-2xl p-6 shadow-lg transition-all duration-300 group-hover:scale-105 hover:shadow-xl">
+                  <div
+                    className="absolute inset-0 rounded-2xl"
+                    style={{
+                      background:
+                        "url(https://cdn.shopify.com/s/files/1/0330/7333/files/TRP-February-05_480x480.jpg?v=1620602480)",
+                      backgroundSize: "cover",
+                      filter: "blur(3px)",
+                    }}
+                  />
+                  <div className="relative z-10">
                     <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-white/20">
                       <GlassWater className="h-6 w-6 text-white" />
                     </div>
