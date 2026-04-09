@@ -12,6 +12,23 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Home() {
   const [loaded, SetLoaded] = useState(false);
   const mainRef = useRef(null);
+  const parallaxImageRef = useRef(null);
+
+  useEffect(() => {
+    if (loaded && parallaxImageRef.current) {
+      gsap.to(parallaxImageRef.current, {
+        scrollTrigger: {
+          trigger: "#home",
+          start: "top top",
+          end: "bottom top",
+          scrub: 1,
+          markers: false,
+        },
+        yPercent: 30,
+        ease: "none",
+      });
+    }
+  }, [loaded]);
 
   return (
     <div>
@@ -24,10 +41,17 @@ export default function Home() {
       <div ref={mainRef} className="relative">
         <section
           id="home"
-          className="min-h-screen w-full flex flex-col items-center justify-center pt-20 bg-gradient-to-br from-amber-900 to-amber-800"
+          className="min-h-screen w-full flex flex-col items-center justify-center pt-20 bg-gradient-to-br from-amber-900 to-amber-800 relative overflow-hidden"
         >
-          <div className="flex flex-col bg-amber-700 font-bold text-3xl text-white rounded-4xl w-96 h-40 text-center items-center justify-center shadow-2xl">
-            <h1 className="text-4xl mb-4 font-sans">AURACAFE</h1>
+          <img
+            ref={parallaxImageRef}
+            src="/coffee_home_image.jpg"
+            alt="Coffee background"
+            className="absolute inset-0 w-full h-full object-cover opacity-78"
+            style={{ willChange: "transform" }}
+          />
+          <div className="relative z-10 flex flex-col bg-black font-bold text-3xl text-white rounded-4xl w-96 h-40 text-center items-center justify-center shadow-2xl opacity-75">
+            <h1 className="text-4xl mb-4 font-sans font-blod">AURACAFE</h1>
             <p className="text-2xl font-sans">Where coffee meets calm</p>
           </div>
         </section>
