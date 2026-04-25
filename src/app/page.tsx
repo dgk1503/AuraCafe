@@ -51,7 +51,7 @@ export default function Home() {
             style={{ willChange: "transform" }}
           />
           <div className="relative z-10 flex flex-col bg-black font-bold text-3xl text-white rounded-4xl w-96 h-40 text-center items-center justify-center shadow-2xl opacity-75">
-            <h1 className="text-4xl mb-4 font-sans font-blod">AURACAFE</h1>
+            <h1 className="text-4xl mb-4 font-sans font-blod">OpenCafé</h1>
             <p className="text-2xl font-sans">Where coffee meets calm</p>
           </div>
         </section>
