@@ -210,7 +210,16 @@ export default function Home() {
 
         <footer className="flex flex-col items-center justify-center py-8 bg-black text-white text-center">
           <p className="text-amber-400 font-bold">Aura Cafe © 2026</p>
-          <p className="text-sm text-gray-400">Where coffee meets calm</p>
+          <p className="text-sm font-bold text-gray-300">
+            Made by{" "}
+            <a
+              href="https://github.com/dgk1503"
+              className="outline-none text-sm text-gray-300  font-serif"
+              target="_blank"
+            >
+              DGK
+            </a>{" "}
+          </p>
         </footer>
       </div>
     </div>
