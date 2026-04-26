@@ -1,4 +1,4 @@
-### Open-Cafe
+### Open-Cafe ☕
 
 ## Features
 
