@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [active, setActive] = useState("home");

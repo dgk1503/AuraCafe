@@ -19,7 +19,7 @@ export default function RootLayout({
 export const metadata = {
   title: "OpenCafe",
   icons: {
-    icon: "./favicon.png",
+    icon: "./favicon_1.png",
   },
   description: "Demo cafe website !",
 };
